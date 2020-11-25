@@ -8,10 +8,11 @@
     <?php
         function telAlleWoorden(){
             $auto ="Mijn blauwe auto is een mooie snelle wagen";
-            strlen($auto);
+            
             
             $lengteZin = $auto;
-            echo $lengteZin;
+            
+            echo strlen($lengteZin);
 
          }
          telAlleWoorden();
