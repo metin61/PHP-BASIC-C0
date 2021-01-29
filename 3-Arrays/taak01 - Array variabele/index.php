@@ -7,7 +7,9 @@
 <body>
     <?php
       $mymovies = array("Batman", "spiderman", "The joker");
+      echo $mymovies[0];
       echo $mymovies[1];
+      echo $mymovies[2];
     ?>
 </body>
 </html>

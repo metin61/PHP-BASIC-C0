@@ -11,11 +11,12 @@
       function zetTweeWoordenAanElkaar($heleZin) {
         $woordje="Hallo";
         $zinnetje="mooie blauwe planeet!";
+        $heleZin = ($woordje . $zinnetje);
           echo "$heleZin";
         
       }
       
-      $heleZin="Hallo mooie blauwe planeet!";
+      
       zetTweeWoordenAanElkaar($heleZin);
 
     ?>

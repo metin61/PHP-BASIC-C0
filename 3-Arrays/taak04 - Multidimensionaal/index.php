@@ -6,17 +6,13 @@
 </head>
 <body>
     <?php
-      $adcGetallen = [ ["abcd"], [24,56,78,90] ];
-
-      print_r($adcGetallen[1][3]);
-
-      
-
-     
-      
-      
-      
-      
+      $abcgetallen = array('a', 'b', 'c', 'd');
+      $abcgetallen = array('24', '56', '78', '90');
+      print_r($abcgetallen);
+      echo $abcgetallen[0];
+      echo $abcgetallen[1];
+      echo $abcgetallen[2];
+      echo $abcgetallen[3];
     ?>
 </body>
 </html>
